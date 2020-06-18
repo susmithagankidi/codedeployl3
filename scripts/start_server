@@ -1,6 +1,9 @@
 #!/bin/bash
 service httpd start
-
-sleep 15m
+sleep 1m
+export BASE=gankidis
+echo $BASE
+export PATH=$PATH:$BASE
+echo $PATH
 
 
