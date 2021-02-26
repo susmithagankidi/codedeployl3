@@ -1,4 +1,2 @@
 #!/bin/bash
-service httpd start > /dev/null 2>&1 
-
-
+service httpd start > /dev/null 2>&1
