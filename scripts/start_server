@@ -1,10 +1,4 @@
 #!/bin/bash
-service httpd start
-sleep 1m
-BASE=gankidis
-echo $BASE
-export PATH=$PATH:$BASE
-echo $PATH
-echo "test"
+service httpd start > /dev/null 2>&1 
 
 
